@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: aqua;
+    min-height: 70px;
+}
+
+header h1{
+    margin: 0;
+    padding-left: 0.5em;
+    padding-top: 10px;
+}
+
+section#info{
+    margin: 5% 0 15% 0;
+}
+
+#eventStart h2{
+    font-size: 3em;
+    text-align: center;
+}
+
+#otherEvents{
+    padding: 0.5em 1em;
+    background-color: aqua;
+    max-width: 98vw;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+#otherEvents > div{    
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+#time{
+    padding: 2% 0%;
+    margin: 2% auto;
+    width: 50%;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#time > span{
+    font-size: 6em;
+}
+
+.card{
+    width: 200px;
+    height: 100px;
+    background-color: yellowgreen;
+    margin: 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
