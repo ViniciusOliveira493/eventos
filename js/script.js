@@ -5,13 +5,13 @@ import { Card } from "./model/Card.js";
 var eventos;
 var eventoEmDestaque;
 
-setInterval(function(){ 
-    atualizarDivTempo(eventoEmDestaque);
-}, 1000);
-
 window.onload = function(){
     let e = new EventoController();
     obterEventos(e);
+
+    setInterval(function(){ 
+        atualizarDivTempo(eventoEmDestaque);
+    }, 1000);
 }
 
 async function obterEventos(e){

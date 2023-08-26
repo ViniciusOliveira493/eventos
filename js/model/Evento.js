@@ -30,8 +30,7 @@ class Evento{
         let diffDias = diffHoras/24;
 
         diffDias = Math.trunc(diffDias);
-        
-
+ 
         if(diffDias>=0){
             timel.days = diffDias;
             timel.time = "";
@@ -62,6 +61,10 @@ class Evento{
                 timel.time+="0"+sec;
             }else{
                 timel.time+=sec;
+            }
+
+            if(sec<0 || min < 0 || horas < 0){
+                timel = "";
             }
         }
 
