@@ -1,15 +1,5 @@
 [
     {
-        "name":"Brazil Game Show",
-        "acronym":"BGS",
-        "startdate":"11/10/2023",
-        "starttime":"13:00",
-        "enddate":"15/10/2023",
-        "endtime":"21:00",
-        "edition":"14"
-
-    },
-    {
         "name":"Comic Con Experience",
         "acronym":"CCXP",
         "startdate":"30/11/2023",
@@ -27,5 +17,25 @@
         "enddate":"21/07/2024",
         "endtime":"23:00",
         "edition":"21"
+    },
+    {
+        "name":"Brazil Game Show",
+        "acronym":"BGS",
+        "startdate":"11/10/2023",
+        "starttime":"13:00",
+        "enddate":"15/10/2023",
+        "endtime":"21:00",
+        "edition":"14"
+
+    },
+    {
+        "name":"Digital Expo SP",
+        "acronym":"DESP",
+        "startdate":"24/08/2023",
+        "starttime":"15:00",
+        "enddate":"24/08/2023",
+        "endtime":"15:00",
+        "edition":"23"
+
     }
 ]

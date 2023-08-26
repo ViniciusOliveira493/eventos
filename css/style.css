@@ -15,7 +15,8 @@ header h1{
 }
 
 section#info{
-    margin: 5% 0 15% 0;
+    margin: 5% 0 13% 0;
+    min-height: 31vh;
 }
 
 #eventStart h2{
@@ -26,16 +27,20 @@ section#info{
 #otherEvents{
     padding: 0.5em 1em;
     background-color: aqua;
-    max-width: 98vw;
-    position: absolute;
-    bottom: 0;
-    
+    width: 98vw;  
+}
+
+#otherEvents > h2 {
+    font-size: 2em;
+    margin-bottom: 0;
 }
 
 #otherEvents > div{    
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+    padding: 10px;
+    margin: 0px;
 }
 
 #time{
@@ -54,7 +59,14 @@ section#info{
     width: 200px;
     height: 100px;
     background-color: yellowgreen;
-    margin: 5px;
+    margin: 0px 5px;
     border-radius: 10px;
     display: inline-block;
+}
+
+.card > span{
+    display: block;
+    text-align: center;
+    margin: 10%;
+    pointer-events: none;
 }

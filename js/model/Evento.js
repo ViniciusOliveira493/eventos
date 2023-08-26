@@ -32,6 +32,7 @@ class Evento{
         diffDias = Math.trunc(diffDias);
         timel.days = diffDias;
         timel.time = "";
+        
         let horas = Math.trunc(diffHoras-(Math.trunc(diffDias)*24));
 
         if(horas<10){
@@ -61,5 +62,10 @@ class Evento{
         }
 
         return timel;
+    }
+
+    static parseEventDate(date){
+        let d1 = date.split("/");
+        return new Date(d1[2],d1[1]-1,d1[0]);
     }
 }
