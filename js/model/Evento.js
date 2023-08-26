@@ -30,35 +30,39 @@ class Evento{
         let diffDias = diffHoras/24;
 
         diffDias = Math.trunc(diffDias);
-        timel.days = diffDias;
-        timel.time = "";
         
-        let horas = Math.trunc(diffHoras-(Math.trunc(diffDias)*24));
 
-        if(horas<10){
-            timel.time+="0"+horas;
-        }else{
-            timel.time+=horas;
-        }
+        if(diffDias>=0){
+            timel.days = diffDias;
+            timel.time = "";
+            
+            let horas = Math.trunc(diffHoras-(Math.trunc(diffDias)*24));
 
-        timel.time += ":";
+            if(horas<10){
+                timel.time+="0"+horas;
+            }else{
+                timel.time+=horas;
+            }
 
-        let min = Math.trunc(diffMin-(Math.trunc(diffHoras)*60));
+            timel.time += ":";
 
-        if(min<10){
-            timel.time+="0"+min;
-        }else{
-            timel.time+=min;
-        }
-        
-        timel.time += ":";
-        
-        let sec = Math.trunc(diffSegundos-(Math.trunc(diffMin)*60))
-        
-        if(sec<10){
-            timel.time+="0"+sec;
-        }else{
-            timel.time+=sec;
+            let min = Math.trunc(diffMin-(Math.trunc(diffHoras)*60));
+
+            if(min<10){
+                timel.time+="0"+min;
+            }else{
+                timel.time+=min;
+            }
+            
+            timel.time += ":";
+            
+            let sec = Math.trunc(diffSegundos-(Math.trunc(diffMin)*60))
+            
+            if(sec<10){
+                timel.time+="0"+sec;
+            }else{
+                timel.time+=sec;
+            }
         }
 
         return timel;

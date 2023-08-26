@@ -33,7 +33,17 @@ function mostrarEventoEmDestaque(evento){
 
 function atualizarDivTempo(evento){
     let tempoFalta = evento.calcTimeLeft();
-    document.getElementById("txtTime").innerHTML = (tempoFalta.days + "d "+ tempoFalta.time);
+    let spanEventoAgora = document.getElementById("eventoComecara");
+    let tempo =  document.getElementById("txtTime");
+    
+    if(tempoFalta.days != undefined){
+       tempo.innerHTML = (tempoFalta.days + "d "+ tempoFalta.time);
+       spanEventoAgora.removeAttribute("class","hidden");
+    }else{
+        tempo.innerHTML = "Está acontecendo <br>"+
+         evento.startdate+" - "+evento.enddate;
+        spanEventoAgora.setAttribute("class","hidden");
+    }
 }
 
 function atualizarCards(eventos){

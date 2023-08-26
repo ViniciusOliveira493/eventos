@@ -1,3 +1,7 @@
+:root{
+    --color-1:black;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -27,7 +31,9 @@ section#info{
 #otherEvents{
     padding: 0.5em 1em;
     background-color: aqua;
-    width: 98vw;  
+    width: 98vw;
+    position: absolute;
+    bottom: 0px;
 }
 
 #otherEvents > h2 {
@@ -69,4 +75,8 @@ section#info{
     text-align: center;
     margin: 10%;
     pointer-events: none;
+}
+
+.hidden{
+    display: none;
 }

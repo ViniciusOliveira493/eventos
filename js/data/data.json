@@ -5,7 +5,7 @@
         "startdate":"30/11/2023",
         "starttime":"18:00",
         "enddate":"03/12/2023",
-        "endtime":"20:00",
+        "endtime":"21:00",
         "edition":"10"
 
     },
@@ -29,13 +29,33 @@
 
     },
     {
-        "name":"Digital Expo SP",
-        "acronym":"DESP",
-        "startdate":"24/08/2023",
+        "name":"Campus Party",
+        "acronym":"CPBR",
+        "startdate":"25/07/2023",
         "starttime":"15:00",
-        "enddate":"24/08/2023",
+        "enddate":"30/07/2023",
         "endtime":"15:00",
-        "edition":"23"
+        "edition":"15"
+
+    },
+    {
+        "name":"Bienal do Livro SP",
+        "acronym":"BLSP",
+        "startdate":"02/07/2023",
+        "starttime":"09:00",
+        "enddate":"10/07/2023",
+        "endtime":"21:00",
+        "edition":"26"
+
+    },
+    {
+        "name":"PerifaCon",
+        "acronym":"PC",
+        "startdate":"30/07/2023",
+        "starttime":"09:00",
+        "enddate":"30/07/2023",
+        "endtime":"21:00",
+        "edition":"3"
 
     }
 ]
