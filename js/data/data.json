@@ -8,8 +8,8 @@
         "endtime":"21:00",
         "edition":"10"
 
-    },
-    {
+    }
+    ,{
         "name":"Anime Friends",
         "acronym":"AF",
         "startdate":"18/07/2024",
@@ -17,8 +17,8 @@
         "enddate":"21/07/2024",
         "endtime":"23:00",
         "edition":"21"
-    },
-    {
+    }
+    ,{
         "name":"Brazil Game Show",
         "acronym":"BGS",
         "startdate":"11/10/2023",
@@ -27,8 +27,8 @@
         "endtime":"21:00",
         "edition":"14"
 
-    },
-    {
+    }
+    ,{
         "name":"Campus Party",
         "acronym":"CPBR",
         "startdate":"25/07/2023",
@@ -37,8 +37,8 @@
         "endtime":"15:00",
         "edition":"15"
 
-    },
-    {
+    }
+    ,{
         "name":"Bienal do Livro SP",
         "acronym":"BLSP",
         "startdate":"02/07/2022",
@@ -47,8 +47,8 @@
         "endtime":"21:00",
         "edition":"26"
 
-    },
-    {
+    }
+    ,{
         "name":"PerifaCon",
         "acronym":"PC",
         "startdate":"30/07/2023",
@@ -56,6 +56,46 @@
         "enddate":"30/07/2023",
         "endtime":"21:00",
         "edition":"3"
+
+    }
+    ,{
+        "name":"Big Festival",
+        "acronym":"BIG24",
+        "startdate":"26/06/2024",
+        "starttime":"10:00",
+        "enddate":"30/06/2024",
+        "endtime":"20:00",
+        "edition":"12"
+
+    }
+    ,{
+        "name":"Campus Party Amazônia",
+        "acronym":"CPAmazônia",
+        "startdate":"11/10/2023",
+        "starttime":"10:00",
+        "enddate":"15/10/2023",
+        "endtime":"20:00",
+        "edition":"1"
+
+    }
+    ,{
+        "name":"Campus Party Goiás",
+        "acronym":"CPGoiás",
+        "startdate":"29/05/2024",
+        "starttime":"10:00",
+        "enddate":"02/06/2024",
+        "endtime":"20:00",
+        "edition":"4"
+
+    }
+    ,{
+        "name":"Bienal do Livro SP",
+        "acronym":"BLSP",
+        "startdate":"14/07/2024",
+        "starttime":"10:00",
+        "enddate":"20/07/2024",
+        "endtime":"21:00",
+        "edition":"27"
 
     }
 ]
