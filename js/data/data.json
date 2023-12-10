@@ -7,7 +7,6 @@
         "enddate":"03/12/2023",
         "endtime":"21:00",
         "edition":"10"
-
     }
     ,{
         "name":"Anime Friends",
@@ -26,7 +25,6 @@
         "enddate":"15/10/2023",
         "endtime":"21:00",
         "edition":"14"
-
     }
     ,{
         "name":"Campus Party",
@@ -36,7 +34,6 @@
         "enddate":"30/07/2023",
         "endtime":"15:00",
         "edition":"15"
-
     }
     ,{
         "name":"Bienal do Livro SP",
@@ -46,7 +43,6 @@
         "enddate":"10/07/2022",
         "endtime":"21:00",
         "edition":"26"
-
     }
     ,{
         "name":"PerifaCon",
@@ -56,7 +52,6 @@
         "enddate":"30/07/2023",
         "endtime":"21:00",
         "edition":"3"
-
     }
     ,{
         "name":"Big Festival",
@@ -66,7 +61,6 @@
         "enddate":"30/06/2024",
         "endtime":"20:00",
         "edition":"12"
-
     }
     ,{
         "name":"Campus Party Amazônia",
@@ -76,7 +70,6 @@
         "enddate":"15/10/2023",
         "endtime":"20:00",
         "edition":"1"
-
     }
     ,{
         "name":"Campus Party Goiás",
@@ -86,7 +79,6 @@
         "enddate":"02/06/2024",
         "endtime":"20:00",
         "edition":"4"
-
     }
     ,{
         "name":"Bienal do Livro SP",
@@ -96,6 +88,14 @@
         "enddate":"20/07/2024",
         "endtime":"21:00",
         "edition":"27"
-
+    }
+    ,{
+        "name":"Gamescom Latam",
+        "acronym":"GCL",
+        "startdate":"26/06/2024",
+        "starttime":"12:00",
+        "enddate":"30/06/2024",
+        "endtime":"21:00",
+        "edition":"1"
     }
 ]
