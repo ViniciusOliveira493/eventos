@@ -98,4 +98,31 @@
         "endtime":"21:00",
         "edition":"1"
     }
+    ,{
+        "name":"Comic Con Experience",
+        "acronym":"CCXP",
+        "startdate":"05/12/2024",
+        "starttime":"18:00",
+        "enddate":"08/12/2024",
+        "endtime":"21:00",
+        "edition":"11"
+    }
+    ,{
+        "name":"Brazil Game Show",
+        "acronym":"BGS",
+        "startdate":"09/10/2024",
+        "starttime":"13:00",
+        "enddate":"13/10/2024",
+        "endtime":"21:00",
+        "edition":"15"
+    }
+     ,{
+        "name":"Campus Party Amazônia",
+        "acronym":"CPAmazônia",
+        "startdate":"09/10/2024",
+        "starttime":"10:00",
+        "enddate":"13/10/2024",
+        "endtime":"20:00",
+        "edition":"2"
+    }
 ]
