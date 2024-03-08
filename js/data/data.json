@@ -116,7 +116,7 @@
         "endtime":"21:00",
         "edition":"15"
     }
-     ,{
+    ,{
         "name":"Campus Party Amazônia",
         "acronym":"CPAmazônia",
         "startdate":"09/10/2024",
@@ -124,5 +124,14 @@
         "enddate":"13/10/2024",
         "endtime":"20:00",
         "edition":"2"
+    }
+    ,{
+        "name":"PerifaCon",
+        "acronym":"PC",
+        "startdate":"27/07/2024",
+        "starttime":"10:00",
+        "enddate":"28/07/2024",
+        "endtime":"22:00",
+        "edition":"4"
     }
 ]
