@@ -134,4 +134,22 @@
         "endtime":"22:00",
         "edition":"4"
     }
+    ,{
+        "name":"Gamescom Latam",
+        "acronym":"GC",
+        "startdate":"26/06/2024",
+        "starttime":"09:30",
+        "enddate":"30/06/2024",
+        "endtime":"20:00",
+        "edition":"1"
+    }
+    ,{
+        "name":"Web Summit Rio",
+        "acronym":"WSR",
+        "startdate":"27/04/2025",
+        "starttime":"09:30",
+        "enddate":"30/04/2025",
+        "endtime":"20:00",
+        "edition":"3"
+    }
 ]
