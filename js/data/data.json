@@ -54,15 +54,6 @@
         "edition":"3"
     }
     ,{
-        "name":"Big Festival",
-        "acronym":"BIG24-",
-        "startdate":"26/06/2024",
-        "starttime":"10:00",
-        "enddate":"30/06/2024",
-        "endtime":"20:00",
-        "edition":"12"
-    }
-    ,{
         "name":"Campus Party Amazônia",
         "acronym":"CPAmazônia",
         "startdate":"11/10/2023",
