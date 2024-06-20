@@ -37,7 +37,7 @@
     }
     ,{
         "name":"Bienal do Livro SP",
-        "acronym":"BLSP",
+        "acronym":"BLSP-",
         "startdate":"02/07/2022",
         "starttime":"09:00",
         "enddate":"10/07/2022",
@@ -46,7 +46,7 @@
     }
     ,{
         "name":"PerifaCon",
-        "acronym":"PC",
+        "acronym":"PC-",
         "startdate":"30/07/2023",
         "starttime":"09:00",
         "enddate":"30/07/2023",
@@ -55,7 +55,7 @@
     }
     ,{
         "name":"Big Festival",
-        "acronym":"BIG24",
+        "acronym":"BIG24-",
         "startdate":"26/06/2024",
         "starttime":"10:00",
         "enddate":"30/06/2024",
@@ -82,7 +82,7 @@
     }
     ,{
         "name":"Bienal do Livro SP",
-        "acronym":"BLSP",
+        "acronym":"BLSP-",
         "startdate":"14/07/2024",
         "starttime":"10:00",
         "enddate":"20/07/2024",
@@ -91,7 +91,7 @@
     }
     ,{
         "name":"Gamescom Latam",
-        "acronym":"GCL",
+        "acronym":"GCL-",
         "startdate":"26/06/2024",
         "starttime":"12:00",
         "enddate":"30/06/2024",
@@ -127,7 +127,7 @@
     }
     ,{
         "name":"PerifaCon",
-        "acronym":"PC",
+        "acronym":"PC-",
         "startdate":"27/07/2024",
         "starttime":"10:00",
         "enddate":"28/07/2024",
@@ -136,11 +136,20 @@
     }
     ,{
         "name":"Web Summit Rio",
-        "acronym":"WSR",
+        "acronym":"WSR-",
         "startdate":"27/04/2025",
         "starttime":"09:30",
         "enddate":"30/04/2025",
         "endtime":"20:00",
         "edition":"3"
+    }
+    ,{
+        "name":"Retrocon",
+        "acronym":"RCon-",
+        "startdate":"03/08/2024",
+        "starttime":"10:00",
+        "enddate":"04/08/2024",
+        "endtime":"19:00",
+        "edition":"2"
     }
 ]
