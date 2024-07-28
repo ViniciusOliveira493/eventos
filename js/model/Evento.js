@@ -71,8 +71,14 @@ class Evento{
         return timel;
     }
 
-    static parseEventDate(date){
-        let d1 = date.split("/");
+    static parseEventDate(date,hour){
+        let d1 = date.split("/");        
+
+        if(hour != undefined){
+            let h1 = hour.split(":");
+            return new Date(d1[2],d1[1]-1,d1[0],h1[0],h1[1]);
+        }
+
         return new Date(d1[2],d1[1]-1,d1[0]);
     }
 }

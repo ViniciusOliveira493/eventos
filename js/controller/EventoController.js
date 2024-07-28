@@ -21,8 +21,8 @@ class EventoController{
         for(let i = 0;i<eventos.length;i++){
             let element = eventos[i];
             let now = new Date();
-            let eventEDt = Evento.parseEventDate(element.enddate);
-
+            let eventEDt = Evento.parseEventDate(element.enddate,element.endtime);
+            console.log(eventEDt);
             if((eventEDt < now)){
                eventos = this.removeItem(eventos,i);
                i=-1;
