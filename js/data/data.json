@@ -1,32 +1,5 @@
 [
-    {
-        "name":"Comic Con Experience",
-        "acronym":"CCXP",
-        "startdate":"30/11/2023",
-        "starttime":"18:00",
-        "enddate":"03/12/2023",
-        "endtime":"21:00",
-        "edition":"10"
-    }
-    ,{
-        "name":"Anime Friends",
-        "acronym":"AF",
-        "startdate":"18/07/2024",
-        "starttime":"19:00",
-        "enddate":"21/07/2024",
-        "endtime":"23:00",
-        "edition":"21"
-    }
-    ,{
-        "name":"Brazil Game Show",
-        "acronym":"BGS",
-        "startdate":"11/10/2023",
-        "starttime":"13:00",
-        "enddate":"15/10/2023",
-        "endtime":"21:00",
-        "edition":"14"
-    }
-    ,{
+   {
         "name":"Campus Party",
         "acronym":"CPBR",
         "startdate":"25/07/2023",
@@ -34,33 +7,6 @@
         "enddate":"30/07/2023",
         "endtime":"15:00",
         "edition":"15"
-    }
-    ,{
-        "name":"Bienal do Livro SP",
-        "acronym":"BLSP-",
-        "startdate":"02/07/2022",
-        "starttime":"09:00",
-        "enddate":"10/07/2022",
-        "endtime":"21:00",
-        "edition":"26"
-    }
-    ,{
-        "name":"PerifaCon",
-        "acronym":"PC-",
-        "startdate":"30/07/2023",
-        "starttime":"09:00",
-        "enddate":"30/07/2023",
-        "endtime":"21:00",
-        "edition":"3"
-    }
-    ,{
-        "name":"Campus Party Amazônia",
-        "acronym":"CPAmazônia",
-        "startdate":"11/10/2023",
-        "starttime":"10:00",
-        "enddate":"15/10/2023",
-        "endtime":"20:00",
-        "edition":"1"
     }
     ,{
         "name":"Campus Party Goiás",
@@ -72,22 +18,22 @@
         "edition":"4"
     }
     ,{
+        "name":"Campus Party Amazônia",
+        "acronym":"CPAmazônia",
+        "startdate":"09/10/2024",
+        "starttime":"10:00",
+        "enddate":"13/10/2024",
+        "endtime":"20:00",
+        "edition":"2"
+    }
+    ,{
         "name":"Bienal do Livro SP",
-        "acronym":"BLSP-",
+        "acronym":"BLSP",
         "startdate":"06/09/2024",
         "starttime":"10:00",
         "enddate":"15/09/2024",
         "endtime":"21:00",
         "edition":"27"
-    }
-    ,{
-        "name":"Gamescom Latam",
-        "acronym":"GCL-",
-        "startdate":"26/06/2024",
-        "starttime":"12:00",
-        "enddate":"30/06/2024",
-        "endtime":"21:00",
-        "edition":"1"
     }
     ,{
         "name":"Comic Con Experience",
@@ -99,26 +45,8 @@
         "edition":"11"
     }
     ,{
-        "name":"Brazil Game Show",
-        "acronym":"BGS",
-        "startdate":"09/10/2024",
-        "starttime":"13:00",
-        "enddate":"13/10/2024",
-        "endtime":"21:00",
-        "edition":"15"
-    }
-    ,{
-        "name":"Campus Party Amazônia",
-        "acronym":"CPAmazônia",
-        "startdate":"09/10/2024",
-        "starttime":"10:00",
-        "enddate":"13/10/2024",
-        "endtime":"20:00",
-        "edition":"2"
-    }
-    ,{
         "name":"PerifaCon",
-        "acronym":"PC-",
+        "acronym":"PC",
         "startdate":"27/07/2024",
         "starttime":"10:00",
         "enddate":"28/07/2024",
@@ -127,7 +55,7 @@
     }
     ,{
         "name":"Web Summit Rio",
-        "acronym":"WSR-",
+        "acronym":"WSR",
         "startdate":"27/04/2025",
         "starttime":"09:30",
         "enddate":"30/04/2025",
@@ -135,12 +63,48 @@
         "edition":"3"
     }
     ,{
+        "name":"Anime Friends",
+        "acronym":"AF",
+        "startdate":"03/07/2025",
+        "starttime":"19:00",
+        "enddate":"06/07/2025",
+        "endtime":"23:00",
+        "edition":"22"
+    }
+    ,{
+        "name":"Brazil Game Show",
+        "acronym":"BGS",
+        "startdate":"09/10/2025",
+        "starttime":"13:00",
+        "enddate":"12/10/2025",
+        "endtime":"21:00",
+        "edition":"16"
+    }
+    ,{
+        "name":"Gamescom Latam",
+        "acronym":"GCL-Latam",
+        "startdate":"30/04/2025",
+        "starttime":"12:00",
+        "enddate":"04/05/2025",
+        "endtime":"21:00",
+        "edition":"1"
+    }
+    ,{
         "name":"Retrocon",
-        "acronym":"RCon-",
-        "startdate":"03/08/2024",
+        "acronym":"RCon",
+        "startdate":"25/07/2025",
         "starttime":"10:00",
-        "enddate":"04/08/2024",
+        "enddate":"27/07/2025",
         "endtime":"19:00",
-        "edition":"2"
+        "edition":"3"
+    }
+    ,{
+        "name":"Bienal do Livro RJ",
+        "acronym":"BLRJ",
+        "startdate":"13/06/2025",
+        "starttime":"10:00",
+        "enddate":"22/06/2025",
+        "endtime":"21:00",
+        "edition":"21"
     }
 ]
